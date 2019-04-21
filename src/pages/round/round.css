@@ -1,0 +1,19 @@
+.round h1 span{
+    font-size: 28px;
+}
+
+.round .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.round .contMoves, .round .contScore{
+    width: 50%;
+}
+
+.round .moves{
+    display: flex;
+    margin: 14px 0px;
+    align-items: center;
+    justify-content: center;
+}

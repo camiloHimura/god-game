@@ -1,0 +1,18 @@
+.score{
+
+}
+
+.score .cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.score .row{    
+    width: 100%;
+    display: flex;
+    margin-bottom: 4px;
+    justify-content: center;
+}
+.score .row div{
+    width: 100px;
+    text-align: center;
+}    

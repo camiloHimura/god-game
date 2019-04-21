@@ -1,0 +1,66 @@
+.select{
+    width: 100%;
+    outline: none;
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 300px;
+    position: relative;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #cccc;
+}
+
+.select > button:first-child {
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.select > button:first-child::before {
+    right: 10px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    margin-top: -4px;
+    position: absolute;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #000;
+}
+
+.select .contOptions {
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    z-index: 10000;
+    overflow: hidden;
+    position: absolute;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #cccc;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.select .contOptions.showOptions {
+    height: auto;
+    visibility: initial;
+}
+
+.select .contOptions * {
+    display: block;
+}
+
+.select > button, .select .contOptions > button {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: transparent;
+    text-overflow: ellipsis;
+    border-top: 1px solid #cac7c7; 
+}
+
+
+

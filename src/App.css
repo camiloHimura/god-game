@@ -1,0 +1,55 @@
+
+.App{
+  font-size: 16px;
+}
+
+h1,h2,h3,h4, p{
+  margin:  0px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generalContainer{
+  width: 100%;
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 0px 10px;
+}
+
+h1,h2,h3{
+  color: #012840;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button{
+  color: #fff;
+  border: none;
+  outline: none;
+  display: block;
+  font-size: 16px;
+  padding: 4px 10px;
+  background: #03588C;
+  border-radius: 10px / 20px;
+}
+
+.button:hover{
+  background: #4393D9;
+}
+
+input{
+  outline: none;
+}
+
+input[type='text']{
+  padding: 4px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px / 20px;
+}
